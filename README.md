@@ -1,27 +1,43 @@
+
 # 🎙️ Voice-Controlled Media Player
 
-This is a Python-based media player that allows you to control video playback using your voice. It uses **Google Speech Recognition API** to understand spoken commands and controls **VLC Media Player** via its Python bindings.
+A Python-based media player that lets you control video playback using voice commands.
 
-## 🛠️ Features
+## 🚀 Features
 
-- 🎬 Play, pause, stop video
-- 🔊 Increase/decrease volume
-- ⏩ Fast forward and rewind (by 10 seconds)
-- 🔇 Mute/unmute toggle
-- 🎤 Real-time speech recognition with ambient noise adjustment
+- Play, pause, and stop video
+- Fast forward and rewind
+- Volume up/down and mute
 
-## 🧰 Technologies Used
+## 🧰 Tech Stack
 
-- Python
-- `speech_recognition` for converting speech to text
-- `python-vlc` for media control
-- Google Web Speech API
-- `time` module for sync/playback control
+- Python 3
+- speech_recognition
+- python-vlc
 
-## 🖥️ Requirements
+## 📦 Installation
 
-- Python 3.x
-- VLC Media Player (must be installed)
-- Python libraries:
-  ```bash
-  pip install speechrecognition python-vlc
+1. Install the required packages:
+   ```bash
+   pip install speechrecognition python-vlc
+   ```
+
+2. Change the video path in the script to your file location.
+
+3. Run the script:
+   ```bash
+   python voice_media_player.py
+   ```
+
+## 🗣️ Voice Commands
+
+| Command        | Action                   |
+|----------------|--------------------------|
+| play           | Start video playback     |
+| stop           | Pause the video          |
+| break          | Stop the video           |
+| forward        | Skip ahead 10 seconds    |
+| rewind         | Go back 10 seconds       |
+| volume up      | Increase volume          |
+| volume down    | Decrease volume          |
+| mute           | Toggle mute              
