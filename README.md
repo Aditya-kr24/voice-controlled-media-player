@@ -18,9 +18,9 @@ A Python-based media player that lets you control video playback using voice com
 ## 📦 Installation
 
 1. Install the required packages:
-   ```bash
+
    pip install speechrecognition python-vlc
-   ```
+
 
 2. Change the video path in the script to your file location.
 
