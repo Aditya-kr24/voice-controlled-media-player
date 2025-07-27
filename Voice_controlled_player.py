@@ -10,7 +10,7 @@ m = sr.Microphone()
 player = vlc.MediaPlayer()
 
 # Path to your video file (make sure this path is correct)
-video_path = r"C:\Users\KIIT0001\Downloads\song.mp4"
+video_path = r"path to your video file"
 
 
 # Set the media file to play
